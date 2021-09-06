@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36090" started-at="2021-09-06T07:02:28 IST" finished-at="2021-09-06T07:03:04 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19993" started-at="2021-09-06T07:02:28 IST" finished-at="2021-09-06T07:02:48 IST">
+      <class name="Academy.E2EDemo.HomePage">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Academy.E2EDemo.HomePage@59e5ddf]" name="tearup" is-config="true" duration-ms="1431" started-at="2021-09-06T07:02:28 IST" finished-at="2021-09-06T07:02:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EDemo.HomePage@59e5ddf]" name="basePageNavigation" duration-ms="6956" started-at="2021-09-06T07:02:29 IST" data-provider="getData" finished-at="2021-09-06T07:02:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenroa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EDemo.HomePage@59e5ddf]" name="basePageNavigation" duration-ms="11470" started-at="2021-09-06T07:02:36 IST" data-provider="getData" finished-at="2021-09-06T07:02:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenroa1992@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EDemo.HomePage@59e5ddf]" name="teardown" is-config="true" duration-ms="106" started-at="2021-09-06T07:02:48 IST" finished-at="2021-09-06T07:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EDemo.HomePage -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="2911" started-at="2021-09-06T07:02:53 IST" finished-at="2021-09-06T07:02:56 IST">
+      <class name="Academy.E2EDemo.ValidateNaviagtionbar">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Academy.E2EDemo.ValidateNaviagtionbar@7e2d773b]" name="tearup" is-config="true" duration-ms="2775" started-at="2021-09-06T07:02:53 IST" finished-at="2021-09-06T07:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.E2EDemo.ValidateNaviagtionbar@7e2d773b]" name="basePageNavigation" duration-ms="132" started-at="2021-09-06T07:02:56 IST" finished-at="2021-09-06T07:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EDemo.ValidateNaviagtionbar@7e2d773b]" name="teardown" is-config="true" duration-ms="0" started-at="2021-09-06T07:02:56 IST" finished-at="2021-09-06T07:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EDemo.ValidateNaviagtionbar -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3158" started-at="2021-09-06T07:03:01 IST" finished-at="2021-09-06T07:03:04 IST">
+      <class name="Academy.E2EDemo.ValidateTitle">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Academy.E2EDemo.ValidateTitle@631330c]" name="tearup" is-config="true" duration-ms="2981" started-at="2021-09-06T07:03:01 IST" finished-at="2021-09-06T07:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.E2EDemo.ValidateTitle@631330c]" name="basePageNavigation" duration-ms="174" started-at="2021-09-06T07:03:04 IST" finished-at="2021-09-06T07:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EDemo.ValidateTitle@631330c]" name="teardown" is-config="true" duration-ms="0" started-at="2021-09-06T07:03:04 IST" finished-at="2021-09-06T07:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EDemo.ValidateTitle -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+package Academy.E2EDemo;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import pageObject.LoginPage;
+import resources.base;
+
+public class ValidateTitle extends base {
+	@BeforeTest
+	public void tearup() throws IOException
+	{
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void basePageNavigation() throws IOException {
+		LandingPage lp = new LandingPage(driver);
+		AssertJUnit.assertEquals(lp.getTitle().getText(), "Home");
+		driver.quit();
+
+	}
+	
+	@AfterTest
+	public void teardown()
+	{
+		driver.quit();
+	}
+
+
+}
